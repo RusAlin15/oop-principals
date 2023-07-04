@@ -21,21 +21,21 @@ the client code.
 | Useful when a single object needs to coordinate actions across a system. |
 | Examples: Logger, Database connection.                                   |
 
-[Code Example](link) :: [Code Example](link) :: [Code Example](link)
+[Singleton](creational_examples/singleton.py) :: [Singleton Decorator](creational_examples/singleton_decorator.py) :: [Singleton Thread-Safe](creational_examples/singleton_thread-safe.py)
 
 
 ***
 
-### 2.
+### 2. Factory Method
 
-| Description                                                                                            |
-|--------------------------------------------------------------------------------------------------------|
-| Defines an interface for creating objects, but allows subclasses to decide which class to instantiate. |
-| Encapsulates the object creation logic in a separate method (the factory method).                      |
-| Provides flexibility and extensibility for creating objects of different types.                        |
-| Examples: Document creation in a word processing application, Shape creation in a drawing application. |
+|     | Description                                                                                            |
+|-----|--------------------------------------------------------------------------------------------------------|
+|     | Defines an interface for creating objects, but allows subclasses to decide which class to instantiate. |
+|     | Encapsulates the object creation logic in a separate method (the factory method).                      |
+|     | Provides flexibility and extensibility for creating objects of different types.                        |
+|     | Examples: Document creation in a word processing application, Shape creation in a drawing application. |
 
-[Code Example](link)
+[Factory Method](creational_examples/factory_method.py)
 ***
 
 ### 3. Abstract Factory
@@ -47,7 +47,7 @@ the client code.
 | Supports creating objects with a consistent theme or across multiple platforms.       |
 | Examples: GUI toolkit (creating buttons, windows, menus), Database abstraction layer. |
 
-[Code Example](link)
+[Abstract Factory](creational_examples/abstract_factory.py)
 ***
 
 ### 4. Builder
@@ -59,7 +59,7 @@ the client code.
 | Provides step-by-step construction and configuration of an object.                    |
 | Examples: Creating complex data structures, Object creation with optional parameters. |
 
-[Code Example](link)
+[Builder](creational_examples/builder.py)
 
 ***
 
@@ -72,5 +72,5 @@ the client code.
 | Hides the complexity of creating new objects.                                           |
 | Examples: Object copying in a game, Creating multiple instances of a document template. |
 
-[Code Example](link)
+[Prototype](creational_examples/prototype.py)
 ***

@@ -20,7 +20,7 @@ more complex systems.
 | Allows incompatible classes to work together by providing a common interface.  |
 | Examples: Adapting a third-party library, Converting data formats.  |
 
-[Code Example](link) :: [Code Example](link) :: [Code Example](link)
+[Adapter](structural_examples/adapter.py)
 ***
 
 ### 2. Decorator
@@ -32,7 +32,7 @@ more complex systems.
 | Provides a flexible alternative to subclassing for extending functionality.  |
 | Examples: Adding features to a text editor, Extending a UI component.     |
 
-[Code Example](link)
+[Decorator](structural_examples/decorator.py)
 ***
 
 ### 3. Proxy
@@ -43,7 +43,7 @@ more complex systems.
 | Acts as an intermediary to control or manage the interaction with the actual object.  |
 | Examples: Caching expensive database queries, Implementing access control.  |
 
-[Code Example](link)
+[Proxy](structural_examples/proxy.py)
 ***
 
 ### 4. Composite
@@ -55,7 +55,7 @@ more complex systems.
 | Allows clients to treat individual objects and compositions uniformly.  |
 | Examples: Representing a file system, Building nested GUI components.     |
 
-[Code Example](link)
+[Composite](structural_examples/composite.py)
 ***
 
 ### 5. Bridge
@@ -67,5 +67,5 @@ more complex systems.
 | Allows changes in the implementation to have minimal impact on the client code.  |
 | Examples: GUI toolkit with different rendering engines, Database abstraction layer.     |
 
-[Code Example](link)
+[Bridge](structural_examples/bridge.py)
 ***

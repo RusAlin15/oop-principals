@@ -21,7 +21,7 @@ relationships between objects in a system.
 | Allows loose coupling between objects and promotes maintainability. |
 | Examples: Event handling, Notifications in a messaging system. |
 
-[Code Example](behaviorall_examples/b_iterator.py) :: [Code Example](link) :: [Code Example](link)
+[Observer](behaviorall_examples/b_observer.py) ::
 ***
 
 ### 2. Strategy
@@ -33,7 +33,7 @@ relationships between objects in a system.
 | Enables easy extension and modification of behavior. |
 | Examples: Sorting algorithms, Payment methods in an e-commerce system. |
 
-[Code Example](link)
+[Strategy](behaviorall_examples/b_strategy.py)
 ***
 
 ### 3. Template Method
@@ -45,7 +45,7 @@ relationships between objects in a system.
 | Provides a framework for implementing and reusing common algorithms.  |
 | Examples: Document processing with different file formats, Game development with      |
 
-[Code Example](link)
+[Template Methood](behaviorall_examples/b_template_method.py)
 ***
 
 ### 4. Iterator
@@ -57,7 +57,7 @@ relationships between objects in a system.
 | Simplifies traversal and iteration over complex data structures.    |
 | Examples: Iterating over a list, Parsing a tree structure.     |
 
-[Code Example](link)
+[Iterator](behaviorall_examples/b_iterator.py)
 ***
 
 ### 5. State
@@ -69,5 +69,5 @@ relationships between objects in a system.
 | Simplifies complex conditional logic and promotes modularity. |
 | Examples: Workflow management, Game character behavior based on game state. |
 
-[Code Example](link)
+[State](behaviorall_examples/b_state.py)
 ***

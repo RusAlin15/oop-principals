@@ -17,7 +17,7 @@ pattern based on the problem at hand and the desired design goals.
 | Enables the queuing, logging, and undo functionality of requests.          |
 | Examples: Implementing a command history in an editor, Remote control with programmable buttons.       |
 
-[Code Example](link)
+[Command](other_examples/command.py)
 ***
 
 ### 2. Memento
@@ -28,7 +28,7 @@ pattern based on the problem at hand and the desired design goals.
 | Captures and stores the internal state of an object externally without violating encapsulation.          |
 | Examples: Undo/redo functionality, Restoring game state.       |
 
-[Code Example](link)
+[Memento](other_examples/memento.py)
 ***
 
 ### 3. Mediator
@@ -40,7 +40,7 @@ pattern based on the problem at hand and the desired design goals.
 | Facilitates communication and coordination between objects.       |
 | Examples: Air traffic control system, Chat room application.      |
 
-[Code Example](link)
+[Mediator](other_examples/mediator.py)
 ***
 
 ### 4. Visitor
@@ -52,7 +52,7 @@ pattern based on the problem at hand and the desired design goals.
 | Ensures open-closed principle by extending the behavior without changing the object structure.       |
 | Examples: Expression evaluation, Document parsing.      |
 
-[Code Example](link)
+[Visitor](other_examples/visitor.py)
 ***
 
 ### 5. Chain of Responsibility
@@ -64,5 +64,5 @@ pattern based on the problem at hand and the desired design goals.
 | Enables multiple objects to handle the request without explicitly specifying the receiver.       |
 |Examples: Request processing in web frameworks, Event propagation in UI frameworks.|
 
-[Code Example](link)
+[Chain of Responsibility](other_examples/chain_of_responsability.py)
 ***
