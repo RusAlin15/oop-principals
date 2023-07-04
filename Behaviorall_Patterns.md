@@ -21,7 +21,7 @@ relationships between objects in a system.
 | Allows loose coupling between objects and promotes maintainability. |
 | Examples: Event handling, Notifications in a messaging system. |
 
-[Code Example](link) :: [Code Example](link) :: [Code Example](link)
+[Code Example](behaviorall_examples/b_iterator.py) :: [Code Example](link) :: [Code Example](link)
 ***
 
 ### 2. Strategy
